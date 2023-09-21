@@ -1,0 +1,20 @@
+{
+    "podcastExt": {
+        "guid": "917393e3-1b1e-5cef-ace4-edaa54e1f810"
+    },
+    "extensions": {
+        "podcast": {
+            "guid": [
+                {
+                    "name": "guid",
+                    "value": "917393e3-1b1e-5cef-ace4-edaa54e1f810",
+                    "attrs": {},
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

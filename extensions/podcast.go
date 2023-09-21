@@ -5,6 +5,7 @@ package ext
 type PodcastFeedExtension struct {
 	Blocks  []*PodcastBlock   `json:"blocks,omitempty"`
 	Funding []*PodcastFunding `json:"funding,omitempty"`
+	GUID    string            `json:"guid,omitempty"`
 }
 
 // PodcastItemExtension is a set of extension
@@ -17,6 +18,7 @@ func NewPodcastFeedExtension(extensions map[string][]Extension) *PodcastFeedExte
 	feed := &PodcastFeedExtension{}
 	feed.Blocks = parseBlocks(extensions)
 	feed.Funding = parseFunding(extensions)
+	feed.GUID = parseTextExtension("guid", extensions)
 	return feed
 }
 
