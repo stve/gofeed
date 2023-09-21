@@ -1,0 +1,39 @@
+{
+    "podcastExt": {
+        "funding": [
+            {
+                "label": "Support the show!",
+                "url": "https://www.example.com/donations"
+            },
+            {
+                "label": "Become a member!",
+                "url": "https://www.example.com/members"
+            }
+        ]
+    },
+    "extensions": {
+        "podcast": {
+            "funding": [
+                {
+                    "name": "funding",
+                    "value": "Support the show!",
+                    "attrs": {
+                        "url": "https://www.example.com/donations"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "funding",
+                    "value": "Become a member!",
+                    "attrs": {
+                        "url": "https://www.example.com/members"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}
