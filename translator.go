@@ -54,6 +54,7 @@ func (t *DefaultRSSTranslator) Translate(feed interface{}) (*Feed, error) {
 	result.Items = t.translateFeedItems(rss)
 	result.ITunesExt = rss.ITunesExt
 	result.DublinCoreExt = rss.DublinCoreExt
+	result.PodcastExt = rss.PodcastExt
 	result.Extensions = rss.Extensions
 	result.FeedVersion = rss.Version
 	result.FeedType = "rss"
@@ -77,6 +78,7 @@ func (t *DefaultRSSTranslator) translateFeedItem(rssItem *rss.Item) (item *Item)
 	item.Enclosures = t.translateItemEnclosures(rssItem)
 	item.DublinCoreExt = rssItem.DublinCoreExt
 	item.ITunesExt = rssItem.ITunesExt
+	item.PodcastExt = rssItem.PodcastExt
 	item.Extensions = rssItem.Extensions
 	item.Custom = rssItem.Custom
 	return

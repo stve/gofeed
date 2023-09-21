@@ -9,33 +9,34 @@ import (
 
 // Feed is an RSS Feed
 type Feed struct {
-	Title               string                   `json:"title,omitempty"`
-	Link                string                   `json:"link,omitempty"`
-	Links               []string                 `json:"links,omitempty"`
-	Description         string                   `json:"description,omitempty"`
-	Language            string                   `json:"language,omitempty"`
-	Copyright           string                   `json:"copyright,omitempty"`
-	ManagingEditor      string                   `json:"managingEditor,omitempty"`
-	WebMaster           string                   `json:"webMaster,omitempty"`
-	PubDate             string                   `json:"pubDate,omitempty"`
-	PubDateParsed       *time.Time               `json:"pubDateParsed,omitempty"`
-	LastBuildDate       string                   `json:"lastBuildDate,omitempty"`
-	LastBuildDateParsed *time.Time               `json:"lastBuildDateParsed,omitempty"`
-	Categories          []*Category              `json:"categories,omitempty"`
-	Generator           string                   `json:"generator,omitempty"`
-	Docs                string                   `json:"docs,omitempty"`
-	TTL                 string                   `json:"ttl,omitempty"`
-	Image               *Image                   `json:"image,omitempty"`
-	Rating              string                   `json:"rating,omitempty"`
-	SkipHours           []string                 `json:"skipHours,omitempty"`
-	SkipDays            []string                 `json:"skipDays,omitempty"`
-	Cloud               *Cloud                   `json:"cloud,omitempty"`
-	TextInput           *TextInput               `json:"textInput,omitempty"`
-	DublinCoreExt       *ext.DublinCoreExtension `json:"dcExt,omitempty"`
-	ITunesExt           *ext.ITunesFeedExtension `json:"itunesExt,omitempty"`
-	Extensions          ext.Extensions           `json:"extensions,omitempty"`
-	Items               []*Item                  `json:"items"`
-	Version             string                   `json:"version"`
+	Title               string                    `json:"title,omitempty"`
+	Link                string                    `json:"link,omitempty"`
+	Links               []string                  `json:"links,omitempty"`
+	Description         string                    `json:"description,omitempty"`
+	Language            string                    `json:"language,omitempty"`
+	Copyright           string                    `json:"copyright,omitempty"`
+	ManagingEditor      string                    `json:"managingEditor,omitempty"`
+	WebMaster           string                    `json:"webMaster,omitempty"`
+	PubDate             string                    `json:"pubDate,omitempty"`
+	PubDateParsed       *time.Time                `json:"pubDateParsed,omitempty"`
+	LastBuildDate       string                    `json:"lastBuildDate,omitempty"`
+	LastBuildDateParsed *time.Time                `json:"lastBuildDateParsed,omitempty"`
+	Categories          []*Category               `json:"categories,omitempty"`
+	Generator           string                    `json:"generator,omitempty"`
+	Docs                string                    `json:"docs,omitempty"`
+	TTL                 string                    `json:"ttl,omitempty"`
+	Image               *Image                    `json:"image,omitempty"`
+	Rating              string                    `json:"rating,omitempty"`
+	SkipHours           []string                  `json:"skipHours,omitempty"`
+	SkipDays            []string                  `json:"skipDays,omitempty"`
+	Cloud               *Cloud                    `json:"cloud,omitempty"`
+	TextInput           *TextInput                `json:"textInput,omitempty"`
+	DublinCoreExt       *ext.DublinCoreExtension  `json:"dcExt,omitempty"`
+	ITunesExt           *ext.ITunesFeedExtension  `json:"itunesExt,omitempty"`
+	PodcastExt          *ext.PodcastFeedExtension `json:"podcastExt,omitempty"`
+	Extensions          ext.Extensions            `json:"extensions,omitempty"`
+	Items               []*Item                   `json:"items"`
+	Version             string                    `json:"version"`
 }
 
 func (f Feed) String() string {
@@ -45,24 +46,25 @@ func (f Feed) String() string {
 
 // Item is an RSS Item
 type Item struct {
-	Title         string                   `json:"title,omitempty"`
-	Link          string                   `json:"link,omitempty"`
-	Links         []string                 `json:"links,omitempty"`
-	Description   string                   `json:"description,omitempty"`
-	Content       string                   `json:"content,omitempty"`
-	Author        string                   `json:"author,omitempty"`
-	Categories    []*Category              `json:"categories,omitempty"`
-	Comments      string                   `json:"comments,omitempty"`
-	Enclosure     *Enclosure               `json:"enclosure,omitempty"`
-	Enclosures    []*Enclosure             `json:"enclosures,omitempty"`
-	GUID          *GUID                    `json:"guid,omitempty"`
-	PubDate       string                   `json:"pubDate,omitempty"`
-	PubDateParsed *time.Time               `json:"pubDateParsed,omitempty"`
-	Source        *Source                  `json:"source,omitempty"`
-	DublinCoreExt *ext.DublinCoreExtension `json:"dcExt,omitempty"`
-	ITunesExt     *ext.ITunesItemExtension `json:"itunesExt,omitempty"`
-	Extensions    ext.Extensions           `json:"extensions,omitempty"`
-	Custom        map[string]string        `json:"custom,omitempty"`
+	Title         string                    `json:"title,omitempty"`
+	Link          string                    `json:"link,omitempty"`
+	Links         []string                  `json:"links,omitempty"`
+	Description   string                    `json:"description,omitempty"`
+	Content       string                    `json:"content,omitempty"`
+	Author        string                    `json:"author,omitempty"`
+	Categories    []*Category               `json:"categories,omitempty"`
+	Comments      string                    `json:"comments,omitempty"`
+	Enclosure     *Enclosure                `json:"enclosure,omitempty"`
+	Enclosures    []*Enclosure              `json:"enclosures,omitempty"`
+	GUID          *GUID                     `json:"guid,omitempty"`
+	PubDate       string                    `json:"pubDate,omitempty"`
+	PubDateParsed *time.Time                `json:"pubDateParsed,omitempty"`
+	Source        *Source                   `json:"source,omitempty"`
+	DublinCoreExt *ext.DublinCoreExtension  `json:"dcExt,omitempty"`
+	ITunesExt     *ext.ITunesItemExtension  `json:"itunesExt,omitempty"`
+	PodcastExt    *ext.PodcastItemExtension `json:"podcastExt,omitempty"`
+	Extensions    ext.Extensions            `json:"extensions,omitempty"`
+	Custom        map[string]string         `json:"custom,omitempty"`
 }
 
 // Image is an image that represents the feed
