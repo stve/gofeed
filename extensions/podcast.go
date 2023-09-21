@@ -2,7 +2,9 @@ package ext
 
 // PodcastFeedExtension is a set of extension
 // fields for RSS feeds.
-type PodcastFeedExtension struct{}
+type PodcastFeedExtension struct {
+	Blocks []*PodcastBlock `json:"blocks,omitempty"`
+}
 
 // PodcastItemExtension is a set of extension
 // fields for RSS items.
@@ -12,6 +14,7 @@ type PodcastItemExtension struct{}
 // extension map for the "podcast" key.
 func NewPodcastFeedExtension(extensions map[string][]Extension) *PodcastFeedExtension {
 	feed := &PodcastFeedExtension{}
+	feed.Blocks = parseBlocks(extensions)
 	return feed
 }
 

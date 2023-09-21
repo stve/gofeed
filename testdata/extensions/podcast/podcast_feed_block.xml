@@ -1,0 +1,10 @@
+<!--
+Description: rss podcast block
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <podcast:block>yes</podcast:block>
+    <podcast:block id="google">no</podcast:block>
+    <podcast:block id="amazon">no</podcast:block>
+  </channel>
+</rss>

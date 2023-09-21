@@ -1,0 +1,48 @@
+{
+    "podcastExt": {
+        "blocks": [
+            {
+                "blocked": true
+            },
+            {
+                "ID": "google",
+                "blocked": false
+            },
+            {
+                "ID": "amazon",
+                "blocked": false
+            }
+        ]
+    },
+    "extensions": {
+        "podcast": {
+            "block": [
+                {
+                    "name": "block",
+                    "value": "yes",
+                    "attrs": {},
+                    "children": {}
+                },
+                {
+                    "name": "block",
+                    "value": "no",
+                    "attrs": {
+                        "id": "google"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "block",
+                    "value": "no",
+                    "attrs": {
+                        "id": "amazon"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}
