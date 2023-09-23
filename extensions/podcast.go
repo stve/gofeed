@@ -7,6 +7,7 @@ type PodcastFeedExtension struct {
 	Funding []*PodcastFunding `json:"funding,omitempty"`
 	GUID    string            `json:"guid,omitempty"`
 	Images  *PodcastImages    `json:"images,omitempty"`
+	License *PodcastLicense   `json:"license,omitempty"`
 }
 
 // PodcastItemExtension is a set of extension
@@ -21,6 +22,7 @@ func NewPodcastFeedExtension(extensions map[string][]Extension) *PodcastFeedExte
 	feed.Funding = parseFunding(extensions)
 	feed.GUID = parseTextExtension("guid", extensions)
 	feed.Images = parseImages(extensions)
+	feed.License = parseLicense(extensions)
 	return feed
 }
 

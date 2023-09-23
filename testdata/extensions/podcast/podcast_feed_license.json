@@ -1,0 +1,25 @@
+{
+    "podcastExt": {
+        "license": {
+            "identifier": "my-podcast-license-v1",
+            "url": "https://example.org/mypodcastlicense/full.pdf"
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "license": [
+                {
+                    "name": "license",
+                    "value": "my-podcast-license-v1",
+                    "attrs": {
+                        "url": "https://example.org/mypodcastlicense/full.pdf"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

@@ -1,0 +1,8 @@
+<!--
+Description: rss podcast funding
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <podcast:license url="https://example.org/mypodcastlicense/full.pdf">my-podcast-license-v1</podcast:license>
+  </channel>
+</rss>
