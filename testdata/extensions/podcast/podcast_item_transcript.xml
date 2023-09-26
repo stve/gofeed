@@ -1,0 +1,17 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:transcript url="https://example.com/episode1/transcript.html" type="text/html" />
+      <podcast:transcript url="https://example.com/episode1/transcript.vtt" type="text/vtt" />
+      <podcast:transcript
+        url="https://example.com/episode1/transcript.json"
+        type="application/json"
+        language="es"
+        rel="captions"
+      />
+    </item>
+  </channel>
+</rss>

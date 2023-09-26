@@ -1,0 +1,27 @@
+{
+    "podcastExt": {
+        "location": {
+            "name": "Austin, TX",
+            "geo": "geo:30.2672,97.7431",
+            "osm": "R113314"
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "location": [
+                {
+                    "name": "location",
+                    "value": "Austin, TX",
+                    "attrs": {
+                        "geo": "geo:30.2672,97.7431",
+                        "osm": "R113314"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

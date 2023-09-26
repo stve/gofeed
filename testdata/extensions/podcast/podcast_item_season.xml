@@ -1,0 +1,16 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:season name="Race for the Whitehouse 2020">3</podcast:season>
+    </item>
+    <item>
+      <podcast:season name="Egyptology: The 19th Century">1</podcast:season>
+    </item>
+    <item>
+      <podcast:season>5</podcast:season>
+    </item>
+  </channel>
+</rss>

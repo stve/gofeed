@@ -1,0 +1,142 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "value": {
+                    "type": "lightning",
+                    "method": "keysend",
+                    "recipients": [
+                        {
+                            "name": "Alice (Podcaster)",
+                            "type": "node",
+                            "address": "02d5c1bf8b940dc9cadca86d1b0a3c37fbe39cee4c7e839e33bef9174531d27f52",
+                            "split": "95"
+                        },
+                        {
+                            "name": "Hosting Provider",
+                            "type": "node",
+                            "address": "03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a",
+                            "split": "5",
+                            "fee": true
+                        }
+                    ],
+                    "timeSplit": [
+                        {
+                            "startTime": 60,
+                            "duration": 237,
+                            "remotePercentage": 95,
+                            "remoteItem": {
+                                "feedGuid": "a94f5cc9-8c58-55fc-91fe-a324087a655b",
+                                "itemGuid": "https://podcastindex.org/podcast/4148683#1",
+                                "medium": "music"
+                            }
+                        },
+                        {
+                            "startTime": 330,
+                            "duration": 53,
+                            "remoteStartTime": 174,
+                            "remotePercentage": 95,
+                            "remoteItem": {
+                                "feedGuid": "a94f5cc9-8c58-55fc-91fe-a324087a655b",
+                                "itemGuid": "https://podcastindex.org/podcast/4148683#1",
+                                "medium": "music"
+                            }
+                        }
+                    ]
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "value": [
+                        {
+                            "name": "value",
+                            "value": "",
+                            "attrs": {
+                                "method": "keysend",
+                                "type": "lightning"
+                            },
+                            "children": {
+                                "valueRecipient": [
+                                    {
+                                        "name": "valueRecipient",
+                                        "value": "",
+                                        "attrs": {
+                                            "address": "02d5c1bf8b940dc9cadca86d1b0a3c37fbe39cee4c7e839e33bef9174531d27f52",
+                                            "name": "Alice (Podcaster)",
+                                            "split": "95",
+                                            "type": "node"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "valueRecipient",
+                                        "value": "",
+                                        "attrs": {
+                                            "address": "03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a",
+                                            "fee": "true",
+                                            "name": "Hosting Provider",
+                                            "split": "5",
+                                            "type": "node"
+                                        },
+                                        "children": {}
+                                    }
+                                ],
+                                "valueTimeSplit": [
+                                    {
+                                        "name": "valueTimeSplit",
+                                        "value": "",
+                                        "attrs": {
+                                            "duration": "237",
+                                            "remotePercentage": "95",
+                                            "startTime": "60"
+                                        },
+                                        "children": {
+                                            "remoteItem": [
+                                                {
+                                                    "name": "remoteItem",
+                                                    "value": "",
+                                                    "attrs": {
+                                                        "feedGuid": "a94f5cc9-8c58-55fc-91fe-a324087a655b",
+                                                        "itemGuid": "https://podcastindex.org/podcast/4148683#1",
+                                                        "medium": "music"
+                                                    },
+                                                    "children": {}
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "valueTimeSplit",
+                                        "value": "",
+                                        "attrs": {
+                                            "duration": "53",
+                                            "remotePercentage": "95",
+                                            "remoteStartTime": "174",
+                                            "startTime": "330"
+                                        },
+                                        "children": {
+                                            "remoteItem": [
+                                                {
+                                                    "name": "remoteItem",
+                                                    "value": "",
+                                                    "attrs": {
+                                                        "feedGuid": "a94f5cc9-8c58-55fc-91fe-a324087a655b",
+                                                        "itemGuid": "https://podcastindex.org/podcast/4148683#3",
+                                                        "medium": "music"
+                                                    },
+                                                    "children": {}
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

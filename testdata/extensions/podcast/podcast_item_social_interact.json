@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "socialInteract": [
+                    {
+                        "uri": "https://podcastindex.social/web/@dave/108013847520053258",
+                        "protocol": "activitypub",
+                        "accountId": "@dave",
+                        "accountUrl": "https://podcastindex.social/web/@dave",
+                        "priority": 1
+                    },
+                    {
+                        "uri": "https://twitter.com/PodcastindexOrg/status/1507120226361647115",
+                        "protocol": "twitter",
+                        "accountId": "@podcastindexorg",
+                        "accountUrl": "https://twitter.com/PodcastindexOrg",
+                        "priority": 2
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "socialInteract": [
+                        {
+                            "name": "socialInteract",
+                            "value": "",
+                            "attrs": {
+                                "accountId": "@dave",
+                                "accountUrl": "https://podcastindex.social/web/@dave",
+                                "priority": "1",
+                                "protocol": "activitypub",
+                                "uri": "https://podcastindex.social/web/@dave/108013847520053258"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "socialInteract",
+                            "value": "",
+                            "attrs": {
+                                "accountId": "@podcastindexorg",
+                                "accountUrl": "https://twitter.com/PodcastindexOrg",
+                                "priority": "2",
+                                "protocol": "twitter",
+                                "uri": "https://twitter.com/PodcastindexOrg/status/1507120226361647115"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "socialInteract": [
+                    {
+                        "protocol": "disabled"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "socialInteract": [
+                        {
+                            "name": "socialInteract",
+                            "value": "",
+                            "attrs": {
+                                "protocol": "disabled"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

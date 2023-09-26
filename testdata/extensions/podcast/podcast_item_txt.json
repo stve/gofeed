@@ -1,0 +1,51 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "txt": [
+                    {
+                        "value": "naj3eEZaWVVY9a38uhX8FekACyhtqP4JN"
+                    },
+                    {
+                        "purpose": "verify",
+                        "value": "S6lpp-7ZCn8-dZfGc-OoyaG"
+                    },
+                    {
+                        "purpose": "release",
+                        "value": "2022-10-26T04:45:30.742Z"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "txt": [
+                        {
+                            "name": "txt",
+                            "value": "naj3eEZaWVVY9a38uhX8FekACyhtqP4JN",
+                            "attrs": {},
+                            "children": {}
+                        },
+                        {
+                            "name": "txt",
+                            "value": "S6lpp-7ZCn8-dZfGc-OoyaG",
+                            "attrs": {
+                                "purpose": "verify"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "txt",
+                            "value": "2022-10-26T04:45:30.742Z",
+                            "attrs": {
+                                "purpose": "release"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

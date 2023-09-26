@@ -1,0 +1,84 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "soundbites": [
+                    {
+                        "duration": "60.0",
+                        "startTime": "73.0"
+                    },
+                    {
+                        "duration": "42.25",
+                        "startTime": "1234.5",
+                        "title": "Why the Podcast Namespace Matters"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "soundbite": [
+                        {
+                            "name": "soundbite",
+                            "value": "",
+                            "attrs": {
+                                "duration": "60.0",
+                                "startTime": "73.0"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "soundbite",
+                            "value": "Why the Podcast Namespace Matters",
+                            "attrs": {
+                                "duration": "42.25",
+                                "startTime": "1234.5"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "soundbites": [
+                    {
+                        "duration": "60.0",
+                        "startTime": "73.0"
+                    },
+                    {
+                        "duration": "42.25",
+                        "startTime": "1234.5",
+                        "title": "Why the Podcast Namespace Matters"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "soundbite": [
+                        {
+                            "name": "soundbite",
+                            "value": "",
+                            "attrs": {
+                                "duration": "60.0",
+                                "startTime": "73.0"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "soundbite",
+                            "value": "Why the Podcast Namespace Matters",
+                            "attrs": {
+                                "duration": "42.25",
+                                "startTime": "1234.5"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

@@ -1,0 +1,36 @@
+<!--
+Description: rss podcast person
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <podcast:person
+      group="visuals"
+      role="Cover Art Designer"
+      href="https://example.com/artist/beckysmith"
+      >Becky Smith</podcast:person>
+
+    <podcast:person
+      group="writing"
+      role="guest"
+      href="https://www.wikipedia/alicebrown"
+      img="http://example.com/images/alicebrown.jpg"
+      >Alice Brown</podcast:person>
+
+    <podcast:person
+      href="https://example.com/johnsmith/blog"
+      img="http://example.com/images/johnsmith.jpg"
+      >John Smith</podcast:person>
+
+    <podcast:person
+      role="guest"
+      href="https://www.imdb.com/name/nm0427852888/"
+      img="http://example.com/images/janedoe.jpg"
+      >Jane Doe</podcast:person>
+
+    <podcast:person
+      role="guest"
+      href="https://www.wikipedia/alicebrown"
+      img="http://example.com/images/alicebrown.jpg"
+      >Alice Brown</podcast:person>
+  </channel>
+</rss>

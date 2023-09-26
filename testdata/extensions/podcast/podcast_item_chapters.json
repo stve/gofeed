@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "chapters": {
+                    "url": "https://example.com/episode1/chapters.json",
+                    "type": "application/json+chapters"
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "chapters": [
+                        {
+                            "name": "chapters",
+                            "value": "",
+                            "attrs": {
+                                "type": "application/json+chapters",
+                                "url": "https://example.com/episode1/chapters.json"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

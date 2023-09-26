@@ -1,0 +1,15 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:soundbite startTime="73.0" duration="60.0" />
+      <podcast:soundbite startTime="1234.5" duration="42.25">Why the Podcast Namespace Matters</podcast:soundbite>
+    </item>
+    <item>
+      <podcast:soundbite startTime="73.0" duration="60.0" />
+      <podcast:soundbite startTime="1234.5" duration="42.25">Why the Podcast Namespace Matters</podcast:soundbite>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:episode>315.5</podcast:episode>
+    </item>
+    <item>
+      <podcast:episode display="Ch.3">204</podcast:episode>
+    </item>
+    <item>
+      <podcast:episode display="Day 5">9</podcast:episode>
+    </item>
+  </channel>
+</rss>

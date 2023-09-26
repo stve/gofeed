@@ -1,0 +1,22 @@
+{
+    "podcastExt": {
+        "medium": {
+            "type": "music"
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "medium": [
+                {
+                    "name": "medium",
+                    "value": "music",
+                    "attrs": {},
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

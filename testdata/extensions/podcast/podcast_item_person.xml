@@ -1,0 +1,18 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:person
+        group="writing"
+        role="guest"
+        href="https://www.wikipedia/alicebrown"
+        img="http://example.com/images/alicebrown.jpg">Alice Brown</podcast:person>
+      <podcast:person
+        group="visuals"
+        role="Cover Art Designer"
+        href="https://example.com/artist/beckysmith">Becky Smith</podcast:person>
+    </item>
+  </channel>
+</rss>

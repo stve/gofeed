@@ -1,0 +1,21 @@
+<!--
+Description: rss podcast funding
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:value type="lightning" method="keysend">
+        <podcast:valueRecipient name="Alice (Podcaster)" type="node" address="02d5c1bf8b940dc9cadca86d1b0a3c37fbe39cee4c7e839e33bef9174531d27f52" split="95" />
+        <podcast:valueRecipient name="Hosting Provider" type="node" address="03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a" split="5" fee="true" />
+
+        <podcast:valueTimeSplit startTime="60" duration="237" remotePercentage="95">
+            <podcast:remoteItem itemGuid="https://podcastindex.org/podcast/4148683#1" feedGuid="a94f5cc9-8c58-55fc-91fe-a324087a655b" medium="music" />
+        </podcast:valueTimeSplit>
+
+        <podcast:valueTimeSplit startTime="330" duration="53" remoteStartTime="174" remotePercentage="95">
+            <podcast:remoteItem itemGuid="https://podcastindex.org/podcast/4148683#3" feedGuid="a94f5cc9-8c58-55fc-91fe-a324087a655b" medium="music" />
+        </podcast:valueTimeSplit>
+      </podcast:value>
+    </item>
+  </channel>
+</rss>

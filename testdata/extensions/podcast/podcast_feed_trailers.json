@@ -1,0 +1,53 @@
+{
+    "podcastExt": {
+        "trailers": [
+            {
+                "title": "Coming April 1st, 2021",
+                "url": "https://example.org/trailers/teaser",
+                "pubDate": "Thu, 01 Apr 2021 08:00:00 EST",
+                "length": 12345678,
+                "type": "audio/mp3"
+            },
+            {
+                "title": "Season 4: Race for the Whitehouse",
+                "url": "https://example.org/trailers/season4teaser",
+                "pubDate": "Thu, 01 Apr 2021 08:00:00 EST",
+                "length": 12345678,
+                "type": "video/mp4",
+                "season": 4
+            }
+        ]
+    },
+    "extensions": {
+        "podcast": {
+            "trailer": [
+                {
+                    "name": "trailer",
+                    "value": "Coming April 1st, 2021",
+                    "attrs": {
+                        "length": "12345678",
+                        "pubdate": "Thu, 01 Apr 2021 08:00:00 EST",
+                        "type": "audio/mp3",
+                        "url": "https://example.org/trailers/teaser"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "trailer",
+                    "value": "Season 4: Race for the Whitehouse",
+                    "attrs": {
+                        "length": "12345678",
+                        "pubdate": "Thu, 01 Apr 2021 08:00:00 EST",
+                        "season": "4",
+                        "type": "video/mp4",
+                        "url": "https://example.org/trailers/season4teaser"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

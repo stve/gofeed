@@ -1,0 +1,26 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <podcast:socialInteract
+        priority="1"
+        uri="https://podcastindex.social/web/@dave/108013847520053258"
+        protocol="activitypub"
+        accountId="@dave"
+        accountUrl="https://podcastindex.social/web/@dave"
+      />
+      <podcast:socialInteract
+              priority="2"
+              uri="https://twitter.com/PodcastindexOrg/status/1507120226361647115"
+              protocol="twitter"
+              accountId="@podcastindexorg"
+              accountUrl="https://twitter.com/PodcastindexOrg"
+      />
+    </item>
+    <item>
+      <podcast:socialInteract protocol="disabled" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+{
+    "podcastExt": {
+        "podroll": {
+            "remoteItems": [
+                {
+                    "feedGuid": "29cdca4a-32d8-56ba-b48b-09a011c5daa9"
+                },
+                {
+                    "feedGuid": "396d9ae0-da7e-5557-b894-b606231fa3ea"
+                },
+                {
+                    "feedGuid": "917393e3-1b1e-5cef-ace4-edaa54e1f810"
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "podroll": [
+                {
+                    "name": "podroll",
+                    "value": "",
+                    "attrs": {},
+                    "children": {
+                        "remoteItem": [
+                            {
+                                "name": "remoteItem",
+                                "value": "",
+                                "attrs": {
+                                    "feedGuid": "29cdca4a-32d8-56ba-b48b-09a011c5daa9"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "remoteItem",
+                                "value": "",
+                                "attrs": {
+                                    "feedGuid": "396d9ae0-da7e-5557-b894-b606231fa3ea"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "remoteItem",
+                                "value": "",
+                                "attrs": {
+                                    "feedGuid": "917393e3-1b1e-5cef-ace4-edaa54e1f810"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

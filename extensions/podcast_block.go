@@ -1,6 +1,6 @@
 package ext
 
-// A PodcastBlock allows a podcaster to express which platforms
+// PodcastBlock allows a podcaster to express which platforms
 // are allowed to publicly display this feed and its contents.
 //
 // More Info: https://podcastindex.org/namespace/1.0#block

@@ -1,0 +1,95 @@
+{
+    "podcastExt": {
+        "people": [
+            {
+                "name": "Becky Smith",
+                "role": "Cover Art Designer",
+                "group": "visuals",
+                "href": "https://example.com/artist/beckysmith"
+            },
+            {
+                "name": "Alice Brown",
+                "role": "guest",
+                "group": "writing",
+                "img": "http://example.com/images/alicebrown.jpg",
+                "href": "https://www.wikipedia/alicebrown"
+            },
+            {
+                "name": "John Smith",
+                "img": "http://example.com/images/johnsmith.jpg",
+                "href": "https://example.com/johnsmith/blog"
+            },
+            {
+                "name": "Jane Doe",
+                "role": "guest",
+                "img": "http://example.com/images/janedoe.jpg",
+                "href": "https://www.imdb.com/name/nm0427852888/"
+            },
+            {
+                "name": "Alice Brown",
+                "role": "guest",
+                "img": "http://example.com/images/alicebrown.jpg",
+                "href": "https://www.wikipedia/alicebrown"
+            }
+        ]
+    },
+    "extensions": {
+        "podcast": {
+            "person": [
+                {
+                    "name": "person",
+                    "value": "Becky Smith",
+                    "attrs": {
+                        "group": "visuals",
+                        "href": "https://example.com/artist/beckysmith",
+                        "role": "Cover Art Designer"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "person",
+                    "value": "Alice Brown",
+                    "attrs": {
+                        "group": "writing",
+                        "href": "https://www.wikipedia/alicebrown",
+                        "img": "http://example.com/images/alicebrown.jpg",
+                        "role": "guest"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "person",
+                    "value": "John Smith",
+                    "attrs": {
+                        "href": "https://example.com/johnsmith/blog",
+                        "img": "http://example.com/images/johnsmith.jpg"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "person",
+                    "value": "Jane Doe",
+                    "attrs": {
+                        "href": "https://www.imdb.com/name/nm0427852888/",
+                        "img": "http://example.com/images/janedoe.jpg",
+                        "role": "guest"
+                    },
+                    "children": {}
+                },
+                {
+                    "name": "person",
+                    "value": "Alice Brown",
+                    "attrs": {
+                        "href": "https://www.wikipedia/alicebrown",
+                        "img": "http://example.com/images/alicebrown.jpg",
+                        "role": "guest"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

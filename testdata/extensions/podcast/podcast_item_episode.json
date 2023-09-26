@@ -1,0 +1,69 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "episode": {
+                    "number": "315.5"
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "episode": [
+                        {
+                            "name": "episode",
+                            "value": "315.5",
+                            "attrs": {},
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "episode": {
+                    "display": "Ch.3",
+                    "number": "204"
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "episode": [
+                        {
+                            "name": "episode",
+                            "value": "204",
+                            "attrs": {
+                                "display": "Ch.3"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "episode": {
+                    "display": "Day 5",
+                    "number": "9"
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "episode": [
+                        {
+                            "name": "episode",
+                            "value": "9",
+                            "attrs": {
+                                "display": "Day 5"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

@@ -1,0 +1,25 @@
+{
+    "podcastExt": {
+        "updateFrequency": {
+            "complete": true,
+            "label": "That’s all folks!"
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "updateFrequency": [
+                {
+                    "name": "updateFrequency",
+                    "value": "That’s all folks!",
+                    "attrs": {
+                        "complete": "true"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

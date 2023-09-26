@@ -1,0 +1,61 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "transcripts": [
+                    {
+                        "url": "https://example.com/episode1/transcript.html",
+                        "type": "text/html"
+                    },
+                    {
+                        "url": "https://example.com/episode1/transcript.vtt",
+                        "type": "text/vtt"
+                    },
+                    {
+                        "url": "https://example.com/episode1/transcript.json",
+                        "type": "application/json",
+                        "language": "es",
+                        "rel": "captions"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "transcript": [
+                        {
+                            "name": "transcript",
+                            "value": "",
+                            "attrs": {
+                                "type": "text/html",
+                                "url": "https://example.com/episode1/transcript.html"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "transcript",
+                            "value": "",
+                            "attrs": {
+                                "type": "text/vtt",
+                                "url": "https://example.com/episode1/transcript.vtt"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "transcript",
+                            "value": "",
+                            "attrs": {
+                                "language": "es",
+                                "rel": "captions",
+                                "type": "application/json",
+                                "url": "https://example.com/episode1/transcript.json"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

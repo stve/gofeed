@@ -1,0 +1,99 @@
+{
+    "podcastExt": {
+        "liveItems": [
+            {
+                "status": "live",
+                "start": "2021-09-26T07:30:00.000-0600",
+                "end": "2021-09-26T09:30:00.000-0600",
+                "contentLinks": [
+                    {
+                        "label": "Listen Live!",
+                        "url": "https://example.com/html/livestream"
+                    },
+                    {
+                        "label": "YouTube!",
+                        "url": "https://youtube.com/pc20/livestream"
+                    },
+                    {
+                        "label": "Twitch!",
+                        "url": "https://twitch.com/pc20/livestream"
+                    }
+                ]
+            }
+        ]
+    },
+    "extensions": {
+        "podcast": {
+            "liveItem": [
+                {
+                    "name": "liveItem",
+                    "value": "",
+                    "attrs": {
+                        "end": "2021-09-26T09:30:00.000-0600",
+                        "start": "2021-09-26T07:30:00.000-0600",
+                        "status": "live"
+                    },
+                    "children": {
+                        "contentLink": [
+                            {
+                                "name": "contentLink",
+                                "value": "Listen Live!",
+                                "attrs": {
+                                    "href": "https://example.com/html/livestream"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "contentLink",
+                                "value": "YouTube!",
+                                "attrs": {
+                                    "href": "https://youtube.com/pc20/livestream"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "contentLink",
+                                "value": "Twitch!",
+                                "attrs": {
+                                    "href": "https://twitch.com/pc20/livestream"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "enclosure": [
+                            {
+                                "name": "enclosure",
+                                "value": "",
+                                "attrs": {
+                                    "length": "312",
+                                    "type": "audio/mpeg",
+                                    "url": "https://example.com/pc20/livestream?format=.mp3"
+                                },
+                                "children": {}
+                            }
+                        ],
+                        "guid": [
+                            {
+                                "name": "guid",
+                                "value": "e32b4890-983b-4ce5-8b46-f2d6bc1d8819",
+                                "attrs": {},
+                                "children": {}
+                            }
+                        ],
+                        "title": [
+                            {
+                                "name": "title",
+                                "value": "Podcasting 2.0 Live Stream",
+                                "attrs": {},
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

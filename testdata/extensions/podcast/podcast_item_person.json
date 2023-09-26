@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "people": [
+                    {
+                        "name": "Alice Brown",
+                        "role": "guest",
+                        "group": "writing",
+                        "img": "http://example.com/images/alicebrown.jpg",
+                        "href": "https://www.wikipedia/alicebrown"
+                    },
+                    {
+                        "name": "Becky Smith",
+                        "role": "Cover Art Designer",
+                        "group": "visuals",
+                        "href": "https://example.com/artist/beckysmith"
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "person": [
+                        {
+                            "name": "person",
+                            "value": "Alice Brown",
+                            "attrs": {
+                                "group": "writing",
+                                "href": "https://www.wikipedia/alicebrown",
+                                "img": "http://example.com/images/alicebrown.jpg",
+                                "role": "guest"
+                            },
+                            "children": {}
+                        },
+                        {
+                            "name": "person",
+                            "value": "Becky Smith",
+                            "attrs": {
+                                "group": "visuals",
+                                "href": "https://example.com/artist/beckysmith",
+                                "role": "Cover Art Designer"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

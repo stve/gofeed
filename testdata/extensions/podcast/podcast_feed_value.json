@@ -1,0 +1,103 @@
+{
+    "podcastExt": {
+        "value": {
+            "type": "lightning",
+            "method": "keysend",
+            "suggested": "0.00000015000",
+            "recipients": [
+                {
+                    "name": "Alice (Podcaster)",
+                    "type": "node",
+                    "address": "02d5c1bf8b940dc9cadca86d1b0a3c37fbe39cee4c7e839e33bef9174531d27f52",
+                    "split": "40"
+                },
+                {
+                    "name": "Bob (Podcaster)",
+                    "type": "node",
+                    "address": "032f4ffbbafffbe51726ad3c164a3d0d37ec27bc67b29a159b0f49ae8ac21b8508",
+                    "split": "40"
+                },
+                {
+                    "name": "Carol (Producer)",
+                    "type": "node",
+                    "address": "02dd306e68c46681aa21d88a436fb35355a8579dd30201581cefa17cb179fc4c15",
+                    "split": "15"
+                },
+                {
+                    "name": "Hosting Provider",
+                    "type": "node",
+                    "address": "03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a",
+                    "split": "5",
+                    "fee": true
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "value": [
+                {
+                    "name": "value",
+                    "value": "",
+                    "attrs": {
+                        "method": "keysend",
+                        "suggested": "0.00000015000",
+                        "type": "lightning"
+                    },
+                    "children": {
+                        "valueRecipient": [
+                            {
+                                "name": "valueRecipient",
+                                "value": "",
+                                "attrs": {
+                                    "address": "02d5c1bf8b940dc9cadca86d1b0a3c37fbe39cee4c7e839e33bef9174531d27f52",
+                                    "name": "Alice (Podcaster)",
+                                    "split": "40",
+                                    "type": "node"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "valueRecipient",
+                                "value": "",
+                                "attrs": {
+                                    "address": "032f4ffbbafffbe51726ad3c164a3d0d37ec27bc67b29a159b0f49ae8ac21b8508",
+                                    "name": "Bob (Podcaster)",
+                                    "split": "40",
+                                    "type": "node"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "valueRecipient",
+                                "value": "",
+                                "attrs": {
+                                    "address": "02dd306e68c46681aa21d88a436fb35355a8579dd30201581cefa17cb179fc4c15",
+                                    "name": "Carol (Producer)",
+                                    "split": "15",
+                                    "type": "node"
+                                },
+                                "children": {}
+                            },
+                            {
+                                "name": "valueRecipient",
+                                "value": "",
+                                "attrs": {
+                                    "address": "03ae9f91a0cb8ff43840e3c322c4c61f019d8c1c3cea15a25cfc425ac605e61a4a",
+                                    "fee": "true",
+                                    "name": "Hosting Provider",
+                                    "split": "5",
+                                    "type": "node"
+                                },
+                                "children": {}
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

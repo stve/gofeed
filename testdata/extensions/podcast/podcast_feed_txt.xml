@@ -1,0 +1,10 @@
+<!--
+Description: rss podcast funding
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <podcast:txt>naj3eEZaWVVY9a38uhX8FekACyhtqP4JN</podcast:txt>
+    <podcast:txt purpose="verify">S6lpp-7ZCn8-dZfGc-OoyaG</podcast:txt>
+    <podcast:txt purpose="release">2022-10-26T04:45:30.742Z</podcast:txt>
+  </channel>
+</rss>

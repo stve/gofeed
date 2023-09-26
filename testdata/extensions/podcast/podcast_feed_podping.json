@@ -1,0 +1,24 @@
+{
+    "podcastExt": {
+        "podping": {
+            "podping": true
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "podping": [
+                {
+                    "name": "podping",
+                    "value": "",
+                    "attrs": {
+                        "usesPodping": "true"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

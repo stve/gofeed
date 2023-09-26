@@ -1,0 +1,227 @@
+{
+    "items": [
+        {
+            "enclosures": [
+                {
+                    "url": "https://example.com/file-0.mp3",
+                    "length": "43200000",
+                    "type": "audio/mpeg"
+                }
+            ],
+            "podcastExt": {
+                "alternateEnclosures": [
+                    {
+                        "type": "audio/mpeg",
+                        "length": 43200000,
+                        "title": "Standard",
+                        "default": true,
+                        "sources": [
+                            {
+                                "uri": "https://example.com/file-0.mp3"
+                            },
+                            {
+                                "uri": "ipfs://someRandomMpegFile"
+                            }
+                        ],
+                        "integrity": {
+                            "type": "sri",
+                            "value": "sha384-ExVqijgYHm15PqQqdXfW95x+Rs6C+d6E/ICxyQOeFevnxNLR/wtJNrNYTjIysUBo"
+                        }
+                    },
+                    {
+                        "type": "audio/opus",
+                        "length": 32400000,
+                        "title": "High quality",
+                        "sources": [
+                            {
+                                "uri": "https://example.com/file-high.opus"
+                            },
+                            {
+                                "uri": "ipfs://someRandomHighBitrateOpusFile"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "audio/aac",
+                        "length": 54000000,
+                        "title": "High quality AAC",
+                        "sources": [
+                            {
+                                "uri": "https://example.com/file-proprietary.aac"
+                            },
+                            {
+                                "uri": "ipfs://someRandomProprietaryAACFile"
+                            },
+                            {
+                                "uri": "https://example.com/file-720.torrent",
+                                "contentType": "application/x-bittorrent"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "audio/opus",
+                        "length": 5400000,
+                        "title": "Low bandwidth",
+                        "sources": [
+                            {
+                                "uri": "https://example.com/file-low.opus"
+                            },
+                            {
+                                "uri": "ipfs://someRandomLowBitrateOpusFile"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "extensions": {
+                "podcast": {
+                    "alternateEnclosure": [
+                        {
+                            "name": "alternateEnclosure",
+                            "value": "",
+                            "attrs": {
+                                "bitrate": "128000",
+                                "default": "true",
+                                "length": "43200000",
+                                "title": "Standard",
+                                "type": "audio/mpeg"
+                            },
+                            "children": {
+                                "integrity": [
+                                    {
+                                        "name": "integrity",
+                                        "value": "",
+                                        "attrs": {
+                                            "type": "sri",
+                                            "value": "sha384-ExVqijgYHm15PqQqdXfW95x+Rs6C+d6E/ICxyQOeFevnxNLR/wtJNrNYTjIysUBo"
+                                        },
+                                        "children": {}
+                                    }
+                                ],
+                                "source": [
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "https://example.com/file-0.mp3"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "ipfs://someRandomMpegFile"
+                                        },
+                                        "children": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "alternateEnclosure",
+                            "value": "",
+                            "attrs": {
+                                "bitrate": "96000",
+                                "length": "32400000",
+                                "title": "High quality",
+                                "type": "audio/opus"
+                            },
+                            "children": {
+                                "source": [
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "https://example.com/file-high.opus"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "ipfs://someRandomHighBitrateOpusFile"
+                                        },
+                                        "children": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "alternateEnclosure",
+                            "value": "",
+                            "attrs": {
+                                "bitrate": "160000",
+                                "length": "54000000",
+                                "title": "High quality AAC",
+                                "type": "audio/aac"
+                            },
+                            "children": {
+                                "source": [
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "https://example.com/file-proprietary.aac"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "ipfs://someRandomProprietaryAACFile"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "contentType": "application/x-bittorrent",
+                                            "uri": "https://example.com/file-720.torrent"
+                                        },
+                                        "children": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "alternateEnclosure",
+                            "value": "",
+                            "attrs": {
+                                "bitrate": "16000",
+                                "length": "5400000",
+                                "title": "Low bandwidth",
+                                "type": "audio/opus"
+                            },
+                            "children": {
+                                "source": [
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "https://example.com/file-low.opus"
+                                        },
+                                        "children": {}
+                                    },
+                                    {
+                                        "name": "source",
+                                        "value": "",
+                                        "attrs": {
+                                            "uri": "ipfs://someRandomLowBitrateOpusFile"
+                                        },
+                                        "children": {}
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

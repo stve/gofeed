@@ -1,0 +1,69 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "season": {
+                    "name": "Race for the Whitehouse 2020",
+                    "number": 3
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "season": [
+                        {
+                            "name": "season",
+                            "value": "3",
+                            "attrs": {
+                                "name": "Race for the Whitehouse 2020"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "season": {
+                    "name": "Egyptology: The 19th Century",
+                    "number": 1
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "season": [
+                        {
+                            "name": "season",
+                            "value": "1",
+                            "attrs": {
+                                "name": "Egyptology: The 19th Century"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "podcastExt": {
+                "season": {
+                    "number": 5
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "season": [
+                        {
+                            "name": "season",
+                            "value": "5",
+                            "attrs": {},
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

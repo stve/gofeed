@@ -1,0 +1,32 @@
+<!--
+Description: rss item itunes summary - cdata multiline 
+-->
+<rss version="2.0" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <item>
+      <enclosure url="https://example.com/file-0.mp3" length="43200000" type="audio/mpeg" />
+
+      <podcast:alternateEnclosure type="audio/mpeg" length="43200000" bitrate="128000" default="true" title="Standard">
+        <podcast:source uri="https://example.com/file-0.mp3" />
+        <podcast:source uri="ipfs://someRandomMpegFile" />
+        <podcast:integrity type="sri" value="sha384-ExVqijgYHm15PqQqdXfW95x+Rs6C+d6E/ICxyQOeFevnxNLR/wtJNrNYTjIysUBo" />
+      </podcast:alternateEnclosure>
+
+      <podcast:alternateEnclosure type="audio/opus" length="32400000" bitrate="96000" title="High quality">
+        <podcast:source uri="https://example.com/file-high.opus" />
+        <podcast:source uri="ipfs://someRandomHighBitrateOpusFile" />
+      </podcast:alternateEnclosure>
+
+      <podcast:alternateEnclosure type="audio/aac" length="54000000" bitrate="160000" title="High quality AAC">
+        <podcast:source uri="https://example.com/file-proprietary.aac" />
+        <podcast:source uri="ipfs://someRandomProprietaryAACFile" />
+        <podcast:source uri="https://example.com/file-720.torrent" contentType="application/x-bittorrent" />
+      </podcast:alternateEnclosure>
+
+      <podcast:alternateEnclosure type="audio/opus" length="5400000" bitrate="16000" title="Low bandwidth">
+        <podcast:source uri="https://example.com/file-low.opus" />
+        <podcast:source uri="ipfs://someRandomLowBitrateOpusFile" />
+      </podcast:alternateEnclosure>
+    </item>
+  </channel>
+</rss>

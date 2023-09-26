@@ -1,0 +1,25 @@
+{
+    "podcastExt": {
+        "locked": {
+            "locked": false,
+            "owner": "email@example.com"
+        }
+    },
+    "extensions": {
+        "podcast": {
+            "locked": [
+                {
+                    "name": "locked",
+                    "value": "no",
+                    "attrs": {
+                        "owner": "email@example.com"
+                    },
+                    "children": {}
+                }
+            ]
+        }
+    },
+    "items": [],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}

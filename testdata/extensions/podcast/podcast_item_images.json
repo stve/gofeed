@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "podcastExt": {
+                "images": {
+                    "srcset": {
+                        "1500w": "https://example.com/images/ep1/pci_avatar-massive.jpg",
+                        "150w": "https://example.com/images/ep1/pci_avatar-tiny.jpg",
+                        "300w": "https://example.com/images/ep1/pci_avatar-small.jpg",
+                        "600w": "https://example.com/images/ep1/pci_avatar-middle.jpg"
+                    }
+                }
+            },
+            "extensions": {
+                "podcast": {
+                    "images": [
+                        {
+                            "name": "images",
+                            "value": "",
+                            "attrs": {
+                                "srcset": "https://example.com/images/ep1/pci_avatar-massive.jpg 1500w,\n              https://example.com/images/ep1/pci_avatar-middle.jpg 600w,\n              https://example.com/images/ep1/pci_avatar-small.jpg 300w,\n              https://example.com/images/ep1/pci_avatar-tiny.jpg 150w"
+                            },
+                            "children": {}
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "feedType": "rss",
+    "feedVersion": "2.0"
+}
