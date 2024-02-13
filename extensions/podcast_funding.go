@@ -26,10 +26,7 @@ func parseFunding(extensions map[string][]Extension) (funding []*PodcastFunding)
 
 	for _, cat := range matches {
 		f := &PodcastFunding{}
-		if url, ok := cat.Attrs["url"]; ok {
-			f.URL = url
-		}
-
+		f.URL = parseTextAttrExtension("url", &cat)
 		f.Label = cat.Value
 
 		funding = append(funding, f)

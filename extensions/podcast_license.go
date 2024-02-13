@@ -26,12 +26,8 @@ func parseLicense(extensions map[string][]Extension) *PodcastLicense {
 	}
 
 	license := &PodcastLicense{}
-
 	license.Identifier = matches[0].Value
-
-	if text, ok := matches[0].Attrs["url"]; ok {
-		license.URL = text
-	}
+	license.URL = parseTextAttrExtension("url", &matches[0])
 
 	return license
 }

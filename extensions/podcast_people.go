@@ -42,22 +42,10 @@ func parsePeople(extensions map[string][]Extension) (people []*PodcastPerson) {
 
 	for _, cat := range matches {
 		p := &PodcastPerson{}
-		if text, ok := cat.Attrs["group"]; ok {
-			p.Group = text
-		}
-
-		if text, ok := cat.Attrs["role"]; ok {
-			p.Role = text
-		}
-
-		if text, ok := cat.Attrs["img"]; ok {
-			p.Image = text
-		}
-
-		if text, ok := cat.Attrs["href"]; ok {
-			p.URL = text
-		}
-
+		p.Group = parseTextAttrExtension("group", &cat)
+		p.Role = parseTextAttrExtension("role", &cat)
+		p.Image = parseTextAttrExtension("img", &cat)
+		p.URL = parseTextAttrExtension("href", &cat)
 		p.Name = cat.Value
 
 		people = append(people, p)

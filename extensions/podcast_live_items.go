@@ -46,18 +46,9 @@ func parseLiveItems(extensions map[string][]Extension) (liveItems []*PodcastLive
 
 	for _, cat := range matches {
 		li := &PodcastLiveItem{}
-		if text, ok := cat.Attrs["status"]; ok {
-			li.Status = text
-		}
-
-		if text, ok := cat.Attrs["start"]; ok {
-			li.Start = text
-		}
-
-		if text, ok := cat.Attrs["end"]; ok {
-			li.End = text
-		}
-
+		li.Status = parseTextAttrExtension("status", &matches[0])
+		li.Start = parseTextAttrExtension("start", &matches[0])
+		li.End = parseTextAttrExtension("end", &matches[0])
 		li.ContentLinks = parseContentLinks(cat.Children)
 
 		liveItems = append(liveItems, li)
@@ -80,12 +71,8 @@ func parseContentLinks(extensions map[string][]Extension) (contentLinks []*Podca
 
 	for _, cat := range matches {
 		cl := &PodcastContentLink{}
-
 		cl.Label = cat.Value
-
-		if text, ok := cat.Attrs["href"]; ok {
-			cl.URL = text
-		}
+		cl.URL = parseTextAttrExtension("href", &cat)
 
 		contentLinks = append(contentLinks, cl)
 	}

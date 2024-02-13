@@ -28,6 +28,18 @@ func parseTextExtension(name string, extensions map[string][]Extension) (value s
 	return match.Value
 }
 
+func parseTextAttrExtension(name string, extension *Extension) (value string) {
+	if extension == nil {
+		return
+	}
+
+	if text, ok := extension.Attrs[name]; ok {
+		return text
+	}
+
+	return
+}
+
 func parseTextArrayExtension(name string, extensions map[string][]Extension) (values []string) {
 	if extensions == nil {
 		return

@@ -25,11 +25,7 @@ func parseEpisode(extensions map[string][]Extension) (episode *PodcastEpisode) {
 	}
 
 	episode = &PodcastEpisode{}
-
-	if text, ok := matches[0].Attrs["display"]; ok {
-		episode.Display = text
-	}
-
+	episode.Display = parseTextAttrExtension("display", &matches[0])
 	episode.Number = matches[0].Value
 
 	return episode

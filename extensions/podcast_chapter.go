@@ -24,14 +24,8 @@ func parseChapters(extensions map[string][]Extension) (chapters *PodcastChapter)
 	}
 
 	chapters = &PodcastChapter{}
-
-	if text, ok := matches[0].Attrs["type"]; ok {
-		chapters.Type = text
-	}
-
-	if text, ok := matches[0].Attrs["url"]; ok {
-		chapters.URL = text
-	}
+	chapters.Type = parseTextAttrExtension("type", &matches[0])
+	chapters.URL = parseTextAttrExtension("url", &matches[0])
 
 	return chapters
 }

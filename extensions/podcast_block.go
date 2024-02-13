@@ -32,10 +32,7 @@ func parseBlocks(extensions map[string][]Extension) (blocks []*PodcastBlock) {
 
 	for _, cat := range matches {
 		f := &PodcastBlock{}
-		if id, ok := cat.Attrs["id"]; ok {
-			f.PlatformID = id
-		}
-
+		f.PlatformID = parseTextAttrExtension("id", &cat)
 		f.Blocked = parseBoolean(cat.Value)
 
 		blocks = append(blocks, f)

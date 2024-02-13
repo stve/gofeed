@@ -27,10 +27,7 @@ func parseLocked(extensions map[string][]Extension) *PodcastLocked {
 	locked := &PodcastLocked{}
 
 	locked.Locked = parseBoolean(matches[0].Value)
-
-	if text, ok := matches[0].Attrs["owner"]; ok {
-		locked.Owner = text
-	}
+	locked.Owner = parseTextAttrExtension("owner", &matches[0])
 
 	return locked
 }

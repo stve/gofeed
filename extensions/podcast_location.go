@@ -25,16 +25,9 @@ func parseLocation(extensions map[string][]Extension) *PodcastLocation {
 	}
 
 	location := &PodcastLocation{}
-
 	location.Name = matches[0].Value
-
-	if text, ok := matches[0].Attrs["geo"]; ok {
-		location.Geo = text
-	}
-
-	if text, ok := matches[0].Attrs["osm"]; ok {
-		location.OpenStreetMap = text
-	}
+	location.Geo = parseTextAttrExtension("geo", &matches[0])
+	location.OpenStreetMap = parseTextAttrExtension("osm", &matches[0])
 
 	return location
 }
